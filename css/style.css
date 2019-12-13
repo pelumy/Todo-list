@@ -1,0 +1,39 @@
+body{
+    background-image:-moz-linear-gradient(90deg, #ce57ce 0%,
+    #a4a4a4 50%, #c56caa 100%);
+    background-image: -webkit-linear-gradient(90deg, #ce57ce 0%,
+    #a4a4a4 50%, #c56caa 100%);
+    background-image: linear-gradient(90deg, #ce57ce 0%,
+    #a4a4a4 50%, #c56caa 100%);
+}
+
+.todo{
+    color: white;  
+    text-align: center;  
+}
+
+h1{
+    font-weight: 900;    
+}
+
+.todo-items, .buttons{
+    text-align: left;
+}
+.save, .clear{
+    border-radius: 5px;
+    background-color: lavender;
+    width: 50px;
+    height: 30px;
+}
+
+.input-text{
+    height:35px ;
+    border-radius: 5px;
+}
+
+.buttons{
+    position: fixed;
+    bottom: 0px;
+    align-self:center;
+    margin-bottom: 20px;
+}
